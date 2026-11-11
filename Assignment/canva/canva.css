@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+}
+.canva{
+    border: 1px solid;
+    padding: 50px 100px;
+    width: 100%;
+    height: 100dvh ;
+    min-height: auto;
+    
+    background-image: linear-gradient(to bottom, #ead3ff, #be78ff, #30026a);
+}
+.div1{
+    position: relative;
+}
+.box1 {
+    /* border: 1px solid; */
+    width: 304px;
+    height: 184px;
+    padding: 0 16px;
+    line-height: 24px;
+    background-color: #ebd6ff;
+    font-size: 16px;
+   font-family: "Google Sans", sans-serif;
+    border-radius: 10px;
+    color: #151318;
+    /* position: relative; */
+
+}
+.lapel{
+    position: absolute;
+    top: -50px;
+    /* right:0px; */
+    left:250px;
+    width: 115px;
+    height: 142px;
+
+}
+.star{
+    position: absolute;
+    width: 202.08px;
+    height: 202.08px;
+    bottom: -140px;
+    left:-100px;
+
+}
+.p1{
+    padding-top: 10px ;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.lapel2{
+    position: absolute;
+    width: 180px;
+    height: 184.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 42%;
+    top:-0.1%
+    
+    
+
+}
+.box2{
+    
+    position: relative;
+     width: 304px;
+    height: 114px;
+    padding: 0 16px;
+    line-height: 24px;
+    background-color: #ebd6ff;
+    font-size: 16px;
+   font-family: "Google Sans", sans-serif;
+    border-radius: 10px;
+    color: #151318;
+    right: -950px;
+    top:-180px
+    
+}
+.p2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    gap: 10px;
+    
+}
+.star2{
+    width: 190px;
+    height: 190.31;
+    position: absolute;
+    right: 92px;
+    top:15%
+}
+h2{
+    color: white;
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-wrap: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: balance;
+    text-align: center;
+    width: 846.88;
+    height: 125.6;
+
+}
+.row3{
+    position: relative;
+}
+.div2{
+    width: 304px;
+    height: 184px;
+     padding: 0 16px;
+    line-height: 24px;
+    background-color: #ebd6ff;
+    font-size: 16px;
+   font-family: "Google Sans", sans-serif;
+    border-radius: 10px;
+    color: #151318;
+     position: absolute;
+    z-index: 1;
+    right: 68%;
+    bottom: 13%;
+}
+.p3{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    gap: 10px;
+    
+}
+
+.love{
+    width: 125px;
+    height: 125px;
+    bottom: 7%;
+    right: 82% ;
+    position: absolute;
+    z-index: 0;
+}
+button{
+    width: 146px;
+    height: 48px;
+    align-items: center;
+    position: absolute;
+    right: 50%;
+    background-color: #f2e8fb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+    font-size: medium;
+    position: absolute;
+    bottom: 30.5%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+}
+
+.lapel3{
+    position: absolute;
+    width: 240px;
+    height: 266px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 38%;
+    bottom: 1%;
+}
+.div3{
+    width: 304px;
+    height: 136px;
+     padding: 0 16px;
+    line-height: 24px;
+    background-color: #ebd6ff;
+    font-size: 16px;
+   font-family: "Google Sans", sans-serif;
+    border-radius: 10px;
+    color: #151318;
+     position: absolute;
+    z-index: 1;
+    right: 13%;
+    bottom: 13%;
+}
+.p4{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    gap: 10px;
+   
+}
+.web{
+    width: 170px;
+    height: 170px;
+    bottom: 5%;
+    right: 8.2% ;
+    position: absolute;
+    z-index: 0;
+}
+
+
+@media screen and (max-width: 900px) {
+    .canva {
+        width: 100%;
+    }
+}
+
+
+@media screen  and (max-width: 500px) {
+     .canva {
+        width: 100%;
+    }
+}
+
