@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.go-taxi{
+    border: 1Px solid black;
+    width: 1550px;
+    height: 60dvh;
+    overflow-x: hidden;
+    position: relative;
+    border-bottom: 10px dashed;
+    
+    
+    
+    
+
+}
+.residence{
+    width: 100%;
+    
+}
+
+.road{
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    
+    
+}
+ 
+.vehicle1{
+    position: absolute;
+    bottom: 110px;
+    animation: vehicle1 8s linear infinite;
+   
+    
+}
+    
+.vehicle2{
+    position: absolute;
+    bottom: 80px;
+    animation: vehicle2 4s linear infinite;
+    display: flex;
+    flex-direction: column-reverse;
+    
+    
+    
+}
+
+.vehicle3{
+    animation: vehicle3 20s linear infinite;
+    position: absolute;
+    
+
+}
+
+
+
+
+
+ @keyframes vehicle1 {
+    from{
+        transform: translateX(-1500px);
+    }
+
+    to{
+        transform: translateX(1500px);
+    }
+ }
+
+  @keyframes vehicle2 {
+    from{
+        transform: translateX(-1500px);
+    }
+
+    to{
+        transform: translateX(1500px);
+    }
+ }
+
+
+   @keyframes vehicle3 {
+    from{
+        transform: translateX(1500px);
+    }
+
+    to{
+        transform: translateX(-1500px);
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
